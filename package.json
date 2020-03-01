@@ -7,7 +7,9 @@
         "test": "node index.test.js"
     },
     "files": [
-        "index.js"
+        "index.js",
+        "koa-infoplus.js",
+        "service.js"
     ],
     "author": "erenwu",
     "license": "ISC",
