@@ -4,6 +4,6 @@
  - InfoPlusService
  - koa-infoplus
 
-## Enterprise API (WIP)
+## Enterprise API
  - oauth
- - erp push
+ - erp push (sys_start, sys_process_edit)

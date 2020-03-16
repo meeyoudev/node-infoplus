@@ -1,6 +1,6 @@
 {
     "name": "infoplus",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "infoplus node sdk",
     "main": "index.js",
     "scripts": {
@@ -9,12 +9,16 @@
     "files": [
         "index.js",
         "koa-infoplus.js",
-        "service.js"
+        "service.js",
+        "constants.js"
     ],
     "author": "erenwu",
     "license": "ISC",
     "dependencies": {
+        "axios": "^0.19.2",
         "koa": "^2.11.0",
-        "koa-body": "^4.1.1"
+        "koa-body": "^4.1.1",
+        "md5": "^2.2.1",
+        "oauth": "^0.9.15"
     }
 }
